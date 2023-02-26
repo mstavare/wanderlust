@@ -752,12 +752,18 @@ label, li {
 		#testimonials div {
 			margin-left: 30px;
 			display: flex;
-			gap: 10px;
+			flex: 1;
+			gap: 5px;
 			text-align: center;
 		}
 
-		#testimonials q, #testimonials p{
-			margin: 10px 0 0 0;
+		#testimonials q, #testimonials p, #testimonials h4{
+			margin: 0;
+			min-width: 311px;
+
+
+		#testimonials h4 {
+			
 		}
 
 		#about div {
